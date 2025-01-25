@@ -1,0 +1,146 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to right, #3af0f7, #df1eb5);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 50%;
+}
+
+nav ul li a{
+    cursor: pointer;
+    font-weight: bold;
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+}
+
+
+nav .logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav .logo i{
+    font-size: 20px;
+    color: black;
+    margin-right: 10px;
+}
+
+nav .logo p{
+    font-weight: bold;
+}
+
+@media (max-width: 420px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul{
+        width: 70%;
+        text-align: center;
+        padding-left: 0;
+    }
+}
+
+
+@media (max-width: 340px) {
+    nav ul{
+        width: 80%;
+    }
+    nav ul li{
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 270px) {
+    nav ul{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li{
+        font-size: 10px;
+        padding: 0px 10px;
+    }
+
+}
+
+.hotDrinks{
+    background: linear-gradient(to right, #3af0f7, #df1eb5);
+}
+
+
+.landing img{
+    height: 100vh;
+    width: 100%;
+}
+
+.hotimg img{
+    width: 100%;
+    height: 20vh;
+    margin-bottom: 15px;
+}
+
+.head{
+    padding: 20px 0;
+    text-align: center;
+}
+
+.fullinfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    width: 80%;
+    margin: 2px auto;
+}
+
+.coldDrinks{
+    background: linear-gradient(to right, #3af0f7, #df1eb5);
+}
+
+.play{
+    background: linear-gradient(to right, #3af0f7, #df1eb5);
+    padding-bottom: 20px;
+}
+
+.g{
+    text-align: center;
+}
+
+.games{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0px auto;
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+}
