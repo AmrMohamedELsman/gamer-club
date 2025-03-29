@@ -90,6 +90,8 @@ nav .logo p{
 
 .hotDrinks{
     background: linear-gradient(to right, #3af0f7, #df1eb5);
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
 }
 
 .landing {
@@ -140,18 +142,23 @@ nav .logo p{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0;
     width: 80%;
-    margin: 2px auto;
+    background-color: rgba(240, 248, 255, 0.623);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px auto;
 }
 
 .coldDrinks{
     background: linear-gradient(to right, #3af0f7, #df1eb5);
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
 }
 
 .play{
     background: linear-gradient(to right, #3af0f7, #df1eb5);
     padding-bottom: 20px;
+    border-bottom: 1px solid black;
 }
 
 .g{
@@ -165,6 +172,7 @@ nav .logo p{
     flex-wrap: wrap;
     width: 80%;
     margin: 0px auto;
+    border-top: 1px solid black;
 }
 
 footer{
@@ -174,7 +182,7 @@ footer{
 }
 
 .fotericon{
-    margin: 10px;
+    margin-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -196,4 +204,11 @@ footer{
     background-color: white;
     text-align: center;
     font-weight: bold;
+}
+
+
+.visitor-counter{
+    text-align: center;
+    margin: 10px auto;
+    background-color: blueviolet;
 }
